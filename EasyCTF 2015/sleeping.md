@@ -28,4 +28,4 @@ Now that we have the square, we can split the encrypted string into coordinates:
 Which yields the message:  
 `servers are had chaosagent go to sleep`  
   
-##Flag: easyctf{servers_are_had_chaosagent_go_to_sleep}
+##Flag: easyctf{serversarehadchaosagentgotosleep}
