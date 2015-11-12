@@ -11,6 +11,7 @@ If you need help, try looking at the Python Tutorial in the Learn section!
   
 ##Solution:  
 This problem can be solved with another simple python script, that does the following:  
+
 1. opens the file and separates the numbers into a list, `x`  
 2. adds the numbers together and writes them to `sum`  
 3. writes `sum` to a new file, `addition.out`  
