@@ -14,6 +14,7 @@ If we examine the encrypted string, we see that when divided into blocks of 2 ev
 This knowledge combined with the hint that our cipher will be missing the letter "z", we can construct a 5x5 Polybius square (hence the hint `sqrt(ABCDEFGHIJKLMNOPQRSTUVWXY)`, because the alphabet minus Z is of length `25` and `sqrt(25) = 5`).  
   
 Here's the square:  
+
 |   | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | 5 | A | B | C | D | E |
