@@ -9,9 +9,9 @@ This is a cookie-cutter [steganography](https://en.wikipedia.org/wiki/Steganogra
 
 There are several ways to solve this problem:
 
-1. open the image in a hex editor and Ctrl+F for "flag"
-2. in Linux, use the `grep` command to look for "flag"
-3. in Windows powershell use `Select-String -Pattern` to look for "flag"
+1. open the image in a hex editor and Ctrl+F for "easyctf"
+2. in Linux, use the `grep` command to look for "easyctf"
+3. in Windows powershell use `Select-String -Pattern` to look for "easyctf"
 
 Linux:
 ```
