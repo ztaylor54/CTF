@@ -8,7 +8,6 @@ If you're really stuck, contact one of the mods on the [chat](https://www.easyct
 This problem can be solved with a simple python program, where we write a line to a file.  
 Here's the script:  
 ```python
-
 f = open('hello-world.out', 'w') 
 f.write('Hello, EasyCTF!\n')
 f.close()
