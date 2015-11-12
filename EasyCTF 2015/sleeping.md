@@ -22,3 +22,10 @@ Here's the square:
 | 7 | K | L | M | N | O |
 | 9 | P | Q | R | S | T |
 | 9 | U | V | W | X | Y |
+
+Now that we have the square, we can split the encrypted string into coordinates:  
+`(3,8) (4,5) (2,8) (1,9) (4,5) (2,8) (3,8) (0,5) (2,8) (4,5) (2,6) (0,5) (3,5) (2,5) (2,6) (0,5) (4,7) (3,8) (0,5) (1,6) (4,5) (3,7) (4,8) (1,6) (4,7) (4,8) (4,7) (8,3) (1,7) (4,5) (4,5) (0,8)`  
+Which yields the message:  
+`servers are had chaosagent go to sleep`  
+  
+##Flag: easyctf{servers_are_had_chaosagent_go_to_sleep}
