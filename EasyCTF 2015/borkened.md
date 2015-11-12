@@ -20,7 +20,7 @@ If we uncomment this line, we get:
 <tr>
 	<td>0</td>
     <td>
-    	<a href+"/team?EasyCTF">EasyCTF<a/>
+    	<a href="/team?EasyCTF">EasyCTF<a/>
     </td>
     <td>Various Schools</td>
     <td>Infinity</td>
