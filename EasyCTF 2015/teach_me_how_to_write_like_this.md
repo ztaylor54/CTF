@@ -10,5 +10,11 @@ When we visit the site, we see that the fanfic we need to view has been blurred 
   
 Instead, we decide to see how the website is blurring the text. By viewing the source on the page (`f12`) we see  
 ```html
-<div class="pay"><p>You must pay exactly £314159265358 to read this fanfic</p><p>PAY <a href="#" style="color: red;">HERE</a></p></div>````  
+<div class="pay">
+	<p>You must pay exactly £314159265358 to read this fanfic</p>
+    <p>
+    	PAY <a href="#" style="color: red;">HERE</a>
+    </p>
+</div>
+````  
 
