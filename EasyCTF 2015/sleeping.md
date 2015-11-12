@@ -20,7 +20,7 @@ Here's the square:
 | 5 | A | B | C | D | E |
 | 6 | F | G | H | I | J |
 | 7 | K | L | M | N | O |
-| 9 | P | Q | R | S | T |
+| 8 | P | Q | R | S | T |
 | 9 | U | V | W | X | Y |
 
 Now that we have the square, we can split the encrypted string into coordinates:  
