@@ -17,13 +17,14 @@ If we copy all the data after starting at offset `0x00118284` to the end of the 
 
 Upon playing the file, the we hear Train's *Hey, Soul Sister* with a very strange (and annoying) right channel. Opening the file in Audacity allows us to isolate the sound, and it seems to be binary! Slowing it down and recording the high notes as `1` and the low notes as `0` yields:
 `1001100111001000010101011000000011001000100100000100000000100111001101011100110110011`
-which is a 85 bits of binary.
+which is 85 bits long.
 
 Factoring `85` into `5 x 17` tells us that this is 17 5-bit chunks of binary information. If the largest any one section can be is `0b11111` (31 in decimal) then the the information in the binary must correspond to a key whose greatest value is less than 31... the alphabet, perhaps?
 
 Breaking up the binary into 17x5 bits gives us `0b10011 0b00111 0b00100 0b00101 0b01011 0b00000 0b00110 0b01000 0b10010 0b00001 0b00000 0b00010 0b01110 0b01101 0b01110 0b01101 0b10011`, which can now be translated to the alphabet using the code below:
 ```java
 public class Accelerator{
+
      public static void main(String []args){
         int[] bytes = {0b10011, 0b00111, 0b00100, 0b00101, 0b01011, 0b00000, 0b00110,
                         0b01000, 0b10010, 0b00001, 0b00000, 0b00010, 0b01110, 0b01101,
