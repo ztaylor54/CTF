@@ -21,7 +21,7 @@ which is 85 bits long.
 
 Factoring `85` into `5 x 17` tells us that this is 17 5-bit chunks of binary information. If the largest any one section can be is `0b11111` (31 in decimal) then the the information in the binary must correspond to a key whose greatest value is less than 31... the alphabet, perhaps?
 
-Breaking up the binary into 17x5 bits gives us `0b10011 0b00111 0b00100 0b00101 0b01011 0b00000 0b00110 0b01000 0b10010 0b00001 0b00000 0b00010 0b01110 0b01101 0b01110 0b01101 0b10011`, which can now be translated to the alphabet using the code below:
+Breaking up the binary into 17x5 bits gives us `0b10011 0b00111 0b00100 0b00101 0b01011 0b00000 0b00110 0b01000 0b10010 0b00001 0b00000 0b00010 0b01110 0b01101 0b01110 0b01101 0b10011`, which can now be translated to the alphabet using Java program below:
 ```java
 public class Accelerator{
 
