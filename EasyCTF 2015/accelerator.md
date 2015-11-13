@@ -24,7 +24,6 @@ Factoring `85` into `5 x 17` tells us that this is 17 5-bit chunks of binary inf
 Breaking up the binary into 17x5 bits gives us `0b10011 0b00111 0b00100 0b00101 0b01011 0b00000 0b00110 0b01000 0b10010 0b00001 0b00000 0b00010 0b01110 0b01101 0b01110 0b01101 0b10011`, which can now be translated to the alphabet using the code below:
 ```java
 public class Accelerator{
-
      public static void main(String []args){
         int[] bytes = {0b10011, 0b00111, 0b00100, 0b00101, 0b01011, 0b00000, 0b00110,
                         0b01000, 0b10010, 0b00001, 0b00000, 0b00010, 0b01110, 0b01101,
@@ -35,7 +34,7 @@ public class Accelerator{
         String flag = "";
         for(int i = 0; i < 17; i++)
             flag += (char) alphabet[(int)bytes[i]];
-        
+            
         System.out.println(flag);
      }
 }
