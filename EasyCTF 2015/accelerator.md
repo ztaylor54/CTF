@@ -7,7 +7,7 @@ Yeah chaosagent likes Accelerator blah blah blah
 ##Solution:
 This was a fun problem... I always love it when a problem trolls me **HARD** when I'm in the middle of solving it.
 
-There are a few steps to solving this problem, and the first i to find what the .pdf is hiding. The first thing to do when working with steganography is to check for any blatant info in the file. A quick search for things like "secret", "flag", and "easyctf" are of no help, not surprisingly.
+There are a few steps to solving this problem, and the first is to find what the .pdf is hiding. The first thing to do when working with steganography is to check for any blatant info in the file. A quick search for things like "secret", "flag", and "easyctf" are of no help, not surprisingly.
 
 Instead, we need to look at the file header to see if there are any suspicious files hidden in the PDF. According to Gary Kessler's [file signature](http://www.garykessler.net/library/file_sigs.html) page, a PDF begins with `0x25 0x50 0x44 0x46`, which is `%PDF` in ASCII. The trailer for a PDF is `0x45 0x4F 0x46 0x0D`, so this should be the last data in the PDF's hex, right?  
 
