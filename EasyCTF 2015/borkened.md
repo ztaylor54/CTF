@@ -30,6 +30,6 @@ Which places a team named "EasyCTF" at the top of the scoreboard with infinity p
   
 If we click the link to visit EasyCTF's webpage, we see that there are even more than 5 members on this team. We are definitely on the right track.  
   
-If we view the source and head over the the console where every team's information is called from `team.js:1`, we can dig around and fing the hidden flag under `score progression`.  
+If we view the source and head over the the console where every team's information is called from `team.js:1`, we can dig around and find the hidden flag under `score progression`.  
   
 ##Flag: easyctf{h4xxing_th3_c0mpetition_s1t3}
