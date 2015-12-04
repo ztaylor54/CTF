@@ -10,6 +10,7 @@ Read up on [Buffer Overflows](https://en.wikipedia.org/wiki/Buffer_overflow).
 ##Solution
 This problem is a simple buffer overflow.
 If we disassemble the file `pwn1` we see that the memory address for the function `get_flag` is `0x80484ad`.  
+
 ![](https://github.com/ztaylor54/CTF/blob/master/sctf/screenshots/pwn_screenshot_1.png)
 
 In order to call this function, we need to overwrite the return address of the `main` function with our input. By a little trial and error, we see that the program breaks when we enter 39 'a's. This means that after 39 characters, the buffer will begin overwriting memory on the stack.  
