@@ -11,7 +11,7 @@ I believe this problem has been the cause of much frustration for many teams in 
 
 Before we do anything, we need to find out what a `.sid` file is. Some quick Google searches tell us that it's the sound filetype used by the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64#Sound).
 
-So how do we listen to it? [HVSC](http://www.hvsc.c64.org/) has a great [downloads](http://www.hvsc.c64.org/#players) page where you can find a plethora of SID players.
+So how do we listen to it? [HVSC](http://www.hvsc.c64.org/) has a great [downloads page](http://www.hvsc.c64.org/#players) where you can find a plethora of SID players.
 
 Here's the one I used: [Sidplay/w 2.6](http://noname.c64.org/csdb/release/?id=103781)
 
