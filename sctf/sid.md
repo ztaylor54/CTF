@@ -7,7 +7,7 @@ Find the name of the song. Submit your answer as `sctf{Name} (case sensitive)`.
 Nice tune...
 
 ##Solution
-I believe this problem has been the cause of much frustration for many teams in this CTF. There are several ways you can solve it, each with varying levels of difficulty.
+I believe this problem has been the cause of much frustration for many teams in this CTF. There are a few ways you can solve it, each with varying levels of difficulty.
 
 Before we do anything, we need to find out what a `.sid` file is. Some quick Google searches tell us that it's the sound filetype used by the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64#Sound).
 
