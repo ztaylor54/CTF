@@ -10,7 +10,8 @@ Here is where I keep all CTF related materials and writeups
 | CSAW HSF 2015           |          |         | No       |
 | EasyCTF 2015            | 82/1636  |  5335   | [Yes][1] |
 | SCTF 2015: Broken Bytes | Ongoing  | Ongoing | [Yes][2] |
-| Seccon CTF 2015         | Ongoing  | Ongoing | Ongoing  |
+| Seccon CTF 2015         | Ongoing  | Ongoing | [Yes][3] |
   
 [1]: https://github.com/ztaylor54/CTF/tree/master/EasyCTF%202015  "EasyCTF 2015 Writeups"
 [2]: https://github.com/ztaylor54/CTF/tree/master/sctf  "SCTF 2015 Writeups"
+[3]: https://github.com/ztaylor54/CTF/tree/master/seccon-ctf-2015 "Seccon CTF 2015 Writeups"
