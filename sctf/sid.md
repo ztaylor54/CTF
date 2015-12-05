@@ -21,7 +21,7 @@ When we open the file, we run into a problem:
 
 It looks like the song's name, author, and release date have been redacted! The music is really neat, but it seems like it might as well be useless if we can't find the song's name.
 
-Many teams got to this point, and began searching lists of popular SID files to see if this song matched any of them.
+Many teams got to this point, and began searching lists of popular SID files to see if this song matched any of them. This method does not work because we later find that this SID isn't even from an old game, but rather a new release from 2014.
 
 I found two good methods for finding the name:
 * Grep [HVSC's](http://www.hvsc.c64.org/) database for the SID's file contents
