@@ -38,4 +38,33 @@ I used [HxD](http://mh-nexus.de/en/hxd/) to select a search string, and after a 
 
 I put that into Windows Grep, set the directory to the database folder, and let it search overnight. (I ran this on a weak [HP Stream](http://www.cnet.com/products/hp-stream-11-6-review/), so it took quite a while)
 
+Sure enough, there was a file that matched our search string.
+
+![search match](https://github.com/ztaylor54/CTF/blob/master/sctf/screenshots/sid_screenshot_3.png)
+
+Windows Grep tells us the file's name is `Berggreen_I_Am.sid`, and if we pull up the song to play it in [Sidplay/w 2.6](http://noname.c64.org/csdb/release/?id=103781), it's a match!
+
+Turns out this song isn't even from a Commodore 64 game at all. It was made recently by Carsten Bergreen (Scarzix) and posted to his [SoundCloud](https://soundcloud.com/scarzix/berggreen-i-am) account for an oldschool music competition.
+
 ###Method 2
+I stumbled accross a much quicker method of solving this problem as I was listening to the `mystery.sid` file on my phone's [Modo](https://play.google.com/store/apps/details?id=de.illogical.modo&hl=en) player.
+
+I saw that although the song did not have any length information, Modo knew its length from the `MD5` hash of the file, `12e7745248d1ed13d0c6c57d3d41d427`, and said it had been found in a "song length database".
+
+<img src="https://github.com/ztaylor54/CTF/blob/master/sctf/screenshots/sid_screenshot_6.png" height="350">
+
+So maybe if we find this database, we can find the song?
+
+Turns out [HVSC's](http://www.hvsc.c64.org/) database has a file named `Songlengths.txt` under `DOCUMENTS/` which contains the length of every SID file by its `MD5` hash.
+
+If we open the file and <kbd>Ctrl</kbd> + <kbd>F</kbd> for `mystery.sid`'s `MD5` hash, we should get a result.
+
+![searching for hash](https://github.com/ztaylor54/CTF/blob/master/sctf/screenshots/sid_screenshot_4.png)
+
+Looks like we get a match:
+
+![ctrl+f match](https://github.com/ztaylor54/CTF/blob/master/sctf/screenshots/sid_screenshot_5.png)
+
+Revealing the song name, Berggreen I Am.
+##Flag
+`sctf{Berggreen I Am}`
