@@ -9,3 +9,11 @@ G(x) = [G(x-1)+G(x-2)]^2
 
 W(x) = [W(x-1)]^2 + [W(x-2)]^2
 ```
+
+What is the sum of the digits of F(30)?
+
+```
+G(0) = 0 G(1) = 1
+
+W(0) = 0 W(1) = 1
+```
