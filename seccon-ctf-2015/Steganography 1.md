@@ -19,3 +19,4 @@ Here are the different types of files in this problem:
 One by one, we can separate them into their own seperate files. [All image files](https://github.com/ztaylor54/CTF/tree/master/seccon-ctf-2015/Steganography%201%20Images)
 
 ##Flag
+SECCON{OCT 21 2015 0728}
