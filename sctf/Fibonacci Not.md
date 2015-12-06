@@ -19,7 +19,7 @@ W(0) = 0 W(1) = 1
 ```
 
 ##Solution
-This is a crazy twist on a normal [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number).  
+This is a crazy twist on the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number).  
 
 Here is a breakdown of a ***normal*** sequence:  
 The formula,
@@ -37,7 +37,7 @@ I used Java's [BigInteger](http://docs.oracle.com/javase/7/docs/api/java/math/Bi
 This method simply needs to return `G(x).subtract(W(x))`
 
 ###G method
-`G`'s sequence is identical to the noral sequence shown above, but it squares the sum of the previous two numbers.  
+`G`'s sequence is identical to the normal sequence shown above, but it squares the ***sum*** of the previous two numbers.  
   
 For example, `G`'s first few digits are: `0, 1, 1, 4, 25, 841, 749956, ...`
 
