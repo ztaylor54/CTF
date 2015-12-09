@@ -12,7 +12,7 @@ Here is where I keep all CTF related materials and writeups
 | EasyCTF 2014            | 67/1088  |  2035   | No       |
 | CSAW HSF 2015*          |          |         | No       |
 | EasyCTF 2015            | 82/1636  |  5335   | [Yes][1] |
-| SCTF 2015: Broken Bytes | Ongoing  | Ongoing | [Yes][2] |
+| SCTF 2015: Broken Bytes | 47/868   |  640    | [Yes][2] |
 | Seccon CTF 2015*        | 436/872  |  300    | [Yes][3] |
   
 [1]: https://github.com/ztaylor54/CTF/tree/master/EasyCTF%202015  "EasyCTF 2015 Writeups"
