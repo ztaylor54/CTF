@@ -1,8 +1,9 @@
 # CTF
 Here is where I keep all CTF related materials and writeups  
 
-##Current Team
-[ID10T Errors](https://ctftime.org/team/21165)
+##Current Team: ID10T Errors
+* [ctftime.org](https://ctftime.org/team/21165)  
+* [github organization](https://github.com/ID10T-Errors)
   
 ##Competition History:
 
