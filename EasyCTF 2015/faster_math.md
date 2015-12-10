@@ -1,4 +1,4 @@
-#Faster Math
+#Faster Math (325 points)
 I need help on my homework! Connect to `programming.easyctf.com:10300` where a series of 100 problems await you.
 
 ##Hint:
