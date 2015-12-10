@@ -1,4 +1,4 @@
-#An apple a day keeps the dinosaur away?
+#An apple a day keeps the dinosaur away? (35 points)
 Oh look, it's a perfectly innocent picture of an [apple](https://www.easyctf.com/static/problems/apple/apple.jpg). Nothing to see here!
 
 ##Hint:
