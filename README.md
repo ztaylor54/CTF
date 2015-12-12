@@ -4,6 +4,7 @@ Here is where I keep all CTF related materials and writeups
 ##Current Team: ID10T Errors
 * [ctftime.org](https://ctftime.org/team/21165)  
 * [github organization](https://github.com/ID10T-Errors)
+* [team website](http://www.ctftoolkit.com/)
   
 ##Competition History:
 
@@ -27,4 +28,4 @@ Here is where I keep all CTF related materials and writeups
 [ctf5]: http://sctf.io/ "SCTF 2015: Broken Bytes"
 [ctf6]: http://ctf.seccon.jp/ "Seccon CTF 2015"
 
-*Competitions I participated in mainly for practice
+*Competitions we participated in mainly for practice
